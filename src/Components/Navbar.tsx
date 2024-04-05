@@ -9,7 +9,7 @@ export const Navbar = () => {
   return (
     <nav className="flex flex-row justify-between items-center">
       <Link href="/">
-        <Image src="/Logo.png" alt="logo" width={150} height={200} quality={100} placeholder="empty" />
+        <Image src="/Logo.png" alt="logo" width={300} height={300} quality={100} placeholder="empty" className="h-[6vh] w-auto"/>
       </Link>
       <div id="Nav_Links">
         <Link className="navItem" href="/">Home</Link>

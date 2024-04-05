@@ -5,7 +5,7 @@
 /* Custom CSS */
 body {
   font-family: "Raleway", sans-serif;
-  @apply bg-white my-[60px] max-w-[1280px] mx-auto;
+  @apply bg-white md:my-[60px] sm:my-[40px] my-[15px] max-w-[1280px] md:mx-auto sm:mx-[30px] mx-[15px] overflow-x-hidden;
 }
 
 /* Nav Styles */

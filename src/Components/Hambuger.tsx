@@ -31,7 +31,7 @@ export const Hambuger = () => {
         loop={false}
       />
       <div
-        className={`${menuVis} bg-white py-20 h-[70vh] w-screen flex flex-col gap-5 absolute rounded-b-3xl drop-shadow-md transition-all ease-in duration-1000`}
+        className={`${menuVis} bg-white py-20 h-[70vh] w-screen flex flex-col gap-5 absolute rounded-b-3xl drop-shadow-md transition-all ease-in duration-500`}
       >
         <Link className="navItem" href="/">
           Home
