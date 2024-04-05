@@ -1,0 +1,90 @@
+{
+    "flavors": {
+      "classical": [
+        {
+          "name": "Chocolate Chip Cookies",
+          "description": "Soft and chewy cookies loaded with chunks of chocolate.",
+          "price": 2.99
+        },
+        {
+          "name": "Oatmeal Raisin Cookies",
+          "description": "Hearty cookies made with oats, raisins, and a hint of cinnamon.",
+          "price": 3.49
+        },
+        {
+          "name": "Peanut Butter Cookies",
+          "description": "Rich and nutty cookies with a crumbly texture, often topped with a chocolate kiss.",
+          "price": 3.99
+        }
+      ],
+      "specialty": [
+        {
+          "name": "Macarons",
+          "description": "Elegant French cookies with a delicate meringue shell and flavorful filling.",
+          "price": 4.99
+        },
+        {
+          "name": "Florentine Cookies",
+          "description": "Thin and crispy almond cookies topped with caramel and chocolate.",
+          "price": 5.49
+        },
+        {
+          "name": "Alfajores",
+          "description": "South American sandwich cookies filled with dulce de leche and rolled in coconut flakes.",
+          "price": 4.49
+        }
+      ],
+      "shortbread": [
+        {
+          "name": "Classic Shortbread",
+          "description": "Buttery and crumbly cookies with a melt-in-your-mouth texture.",
+          "price": 3.99
+        },
+        {
+          "name": "Lemon Shortbread",
+          "description": "Shortbread cookies infused with lemon zest and drizzled with lemon icing.",
+          "price": 4.49
+        },
+        {
+          "name": "Chocolate-Dipped Shortbread",
+          "description": "Shortbread fingers dipped in rich dark or milk chocolate.",
+          "price": 4.99
+        }
+      ],
+      "healthier": [
+        {
+          "name": "Oatmeal Banana Cookies",
+          "description": "Soft and naturally sweetened cookies made with ripe bananas, oats, and a hint of cinnamon.",
+          "price": 3.49
+        },
+        {
+          "name": "Almond Flour Cookies",
+          "description": "Gluten-free cookies made with almond flour, honey, and dark chocolate chips.",
+          "price": 4.49
+        },
+        {
+          "name": "Vegan Peanut Butter Cookies",
+          "description": "Plant-based cookies made with peanut butter, maple syrup, and flax eggs.",
+          "price": 3.99
+        }
+      ]
+    },
+    "testimonials": [
+      {
+        "rating": 5,
+        "testimony": "These cookies are absolutely delicious! I can't get enough of them.",
+        "name": "Emily Johnson"
+      },
+      {
+        "rating": 4,
+        "testimony": "The cookies were fantastic! My family loved them.",
+        "name": "John Smith"
+      },
+      {
+        "rating": 5,
+        "testimony": "Amazing cookies! They're perfect for any occasion.",
+        "name": "Sarah Thompson"
+      }
+    ]
+  }
+  
