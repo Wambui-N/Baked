@@ -117,16 +117,8 @@
                                 282.993,
                                 0
                             ],
-                            "to": [
-                                0,
-                                8.333,
-                                0
-                            ],
-                            "ti": [
-                                0,
-                                0.165,
-                                0
-                            ]
+                            "to": null,
+                            "ti": null
                         },
                         {
                             "i": {
@@ -169,16 +161,8 @@
                                 332.993,
                                 0
                             ],
-                            "to": [
-                                0,
-                                -0.118,
-                                0
-                            ],
-                            "ti": [
-                                0,
-                                0.319,
-                                0
-                            ]
+                            "to": null,
+                            "ti": null
                         },
                         {
                             "i": {
@@ -195,16 +179,8 @@
                                 333,
                                 0
                             ],
-                            "to": [
-                                0,
-                                -5.714,
-                                0
-                            ],
-                            "ti": [
-                                0,
-                                2.29,
-                                0
-                            ]
+                            "to": null,
+                            "ti": null
                         },
                         {
                             "t": 75,
@@ -250,21 +226,21 @@
                                 "k": {
                                     "i": [
                                         [
-                                            0,
+                                            -80.5,
                                             0
                                         ],
                                         [
-                                            0,
+                                            80.5,
                                             0
                                         ]
                                     ],
                                     "o": [
                                         [
-                                            0,
+                                            -80.5,
                                             0
                                         ],
                                         [
-                                            0,
+                                            80.5,
                                             0
                                         ]
                                     ],
@@ -284,16 +260,17 @@
                             },
                             "nm": "Path 1",
                             "mn": "ADBE Vector Shape - Group",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "st",
                             "c": {
                                 "a": 0,
                                 "k": [
-                                    0,
-                                    0,
-                                    0,
+                                    0.2471,
+                                    0.2157,
+                                    0.8235,
                                     1
                                 ],
                                 "ix": 3
@@ -314,7 +291,8 @@
                             "bm": 0,
                             "nm": "Stroke 1",
                             "mn": "ADBE Vector Graphic - Stroke",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "tr",
@@ -362,7 +340,8 @@
                                 "k": 0,
                                 "ix": 5
                             },
-                            "nm": "Transform"
+                            "nm": "Transform",
+                            "_render": true
                         }
                     ],
                     "nm": "Top",
@@ -371,13 +350,15 @@
                     "bm": 0,
                     "ix": 1,
                     "mn": "ADBE Vector Group",
-                    "hd": false
+                    "hd": false,
+                    "_render": true
                 }
             ],
             "ip": 0,
             "op": 300,
             "st": 0,
-            "bm": 0
+            "bm": 0,
+            "completed": true
         },
         {
             "ddd": 0,
@@ -511,21 +492,21 @@
                                 "k": {
                                     "i": [
                                         [
-                                            0,
+                                            -80.5,
                                             0
                                         ],
                                         [
-                                            0,
+                                            80.5,
                                             0
                                         ]
                                     ],
                                     "o": [
                                         [
-                                            0,
+                                            -80.5,
                                             0
                                         ],
                                         [
-                                            0,
+                                            80.5,
                                             0
                                         ]
                                     ],
@@ -545,16 +526,17 @@
                             },
                             "nm": "Path 1",
                             "mn": "ADBE Vector Shape - Group",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "st",
                             "c": {
                                 "a": 0,
                                 "k": [
-                                    0,
-                                    0,
-                                    0,
+                                    0.2471,
+                                    0.2157,
+                                    0.8235,
                                     1
                                 ],
                                 "ix": 3
@@ -575,7 +557,8 @@
                             "bm": 0,
                             "nm": "Stroke 1",
                             "mn": "ADBE Vector Graphic - Stroke",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "tr",
@@ -623,7 +606,8 @@
                                 "k": 0,
                                 "ix": 5
                             },
-                            "nm": "Transform"
+                            "nm": "Transform",
+                            "_render": true
                         }
                     ],
                     "nm": "Middle",
@@ -632,13 +616,15 @@
                     "bm": 0,
                     "ix": 1,
                     "mn": "ADBE Vector Group",
-                    "hd": false
+                    "hd": false,
+                    "_render": true
                 }
             ],
             "ip": 0,
             "op": 300,
             "st": 0,
-            "bm": 0
+            "bm": 0,
+            "completed": true
         },
         {
             "ddd": 0,
@@ -748,16 +734,8 @@
                                 382.993,
                                 0
                             ],
-                            "to": [
-                                0,
-                                -8.332,
-                                0
-                            ],
-                            "ti": [
-                                0,
-                                -0.001,
-                                0
-                            ]
+                            "to": null,
+                            "ti": null
                         },
                         {
                             "i": {
@@ -826,16 +804,8 @@
                                 333,
                                 0
                             ],
-                            "to": [
-                                0,
-                                5.605,
-                                0
-                            ],
-                            "ti": [
-                                0,
-                                -2.242,
-                                0
-                            ]
+                            "to": null,
+                            "ti": null
                         },
                         {
                             "t": 75,
@@ -881,21 +851,21 @@
                                 "k": {
                                     "i": [
                                         [
-                                            0,
+                                            -80.5,
                                             0
                                         ],
                                         [
-                                            0,
+                                            80.5,
                                             0
                                         ]
                                     ],
                                     "o": [
                                         [
-                                            0,
+                                            -80.5,
                                             0
                                         ],
                                         [
-                                            0,
+                                            80.5,
                                             0
                                         ]
                                     ],
@@ -915,16 +885,17 @@
                             },
                             "nm": "Path 1",
                             "mn": "ADBE Vector Shape - Group",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "st",
                             "c": {
                                 "a": 0,
                                 "k": [
-                                    0,
-                                    0,
-                                    0,
+                                    0.2471,
+                                    0.2157,
+                                    0.8235,
                                     1
                                 ],
                                 "ix": 3
@@ -945,7 +916,8 @@
                             "bm": 0,
                             "nm": "Stroke 1",
                             "mn": "ADBE Vector Graphic - Stroke",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "tr",
@@ -993,7 +965,8 @@
                                 "k": 0,
                                 "ix": 5
                             },
-                            "nm": "Transform"
+                            "nm": "Transform",
+                            "_render": true
                         }
                     ],
                     "nm": "Bottom",
@@ -1002,14 +975,17 @@
                     "bm": 0,
                     "ix": 1,
                     "mn": "ADBE Vector Group",
-                    "hd": false
+                    "hd": false,
+                    "_render": true
                 }
             ],
             "ip": 0,
             "op": 300,
             "st": 0,
-            "bm": 0
+            "bm": 0,
+            "completed": true
         }
     ],
-    "markers": []
+    "markers": [],
+    "__complete": true
 }

@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
 
-export const Button = () => {
-  return (
-    <button>
-        <span>Order</span>
-    </button>
-  )
+interface ButtonProps {
+  style?: string;
+  text: string;
 }
+
+export const Button = ({text, style}: ButtonProps) => {
+  return (
+    <button className={`${style}`}>
+      <span>{text}</span>
+    </button>
+  );
+};
