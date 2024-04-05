@@ -16,7 +16,7 @@ const config: Config = {
       colors: {
         'transparent': 'transparent',
         'primary': '#3F37D2',
-        'background': '#EFEFFA',
+        'white': '#EFEFFA',
         'black': '#090722',
       }
     },
