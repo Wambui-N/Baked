@@ -18,7 +18,12 @@ const config: Config = {
         'primary': '#3F37D2',
         'white': '#EFEFFA',
         'black': '#090722',
-      }
+      },
+      screens: {
+        'lg': '1024px',
+        'md': '768px',
+        'sm': '640px',
+      },
     },
   },
   plugins: [],
