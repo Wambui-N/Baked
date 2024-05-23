@@ -1,5 +1,4 @@
-import { Hero, Menu, Process } from "@/Components";
-import Image from "next/image";
+import { Hero, Menu, Process, Testimonials } from "@/Components";
 
 export default function Home() {
   return (
@@ -7,6 +6,7 @@ export default function Home() {
       <Hero />
       <Process />
       <Menu />
+      <Testimonials />
     </div>
   );
 }

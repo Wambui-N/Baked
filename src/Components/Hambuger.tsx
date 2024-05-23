@@ -10,7 +10,7 @@ import { Button } from "./Button";
 export const Hambuger = () => {
   const [isOpen, setIsOpen] = useState(false);
   const menuRef = useRef<any>(null);
-  const menuVis = isOpen ? "left-0" : "left-[100vw]";
+  const menuVis = isOpen ? "left-0" : "left-[100vw] hidden";
 
   const toggleMenu = () => {
     if (!isOpen) {

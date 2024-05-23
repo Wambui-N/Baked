@@ -14,9 +14,9 @@ export const Process = () => {
         indulgence. Whether you prefer classic tastes or adventurous new
         combinations, our selection has something to please every palate.
       </p>
-      <div className="columns-3xs gap-[3vw] w-full h-[58vh] my-4">
+      <div className="grid md:grid-cols-3 grid-cols-1 gap-[3vw] w-full h-auto overflow-hidden my-4">
         <Image
-          className="object-cover object-center rounded-2xl border-[1px] border-primary h-full w-auto"
+          className="object-cover object-center rounded-2xl border-[1px] border-primary"
           src="/Image 1.png"
           alt="Mixing ingredients"
           width={500}
@@ -24,7 +24,7 @@ export const Process = () => {
           quality={100}
         />
         <Image
-          className="object-cover object-center rounded-2xl border-[1px] border-primary h-full w-auto"
+          className="object-cover object-center rounded-2xl border-[1px] border-primary"
           src="/Image 2.png"
           alt="Mixing ingredients"
           width={500}
@@ -32,7 +32,7 @@ export const Process = () => {
           quality={100}
         />
         <Image
-          className="object-cover object-center rounded-2xl border-[1px] border-primary h-full w-auto"
+          className="object-cover object-center rounded-2xl border-[1px] border-primary"
           src="/Image 3.png"
           alt="Mixing ingredients"
           width={500}

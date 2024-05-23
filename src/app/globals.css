@@ -10,7 +10,7 @@
 
 body {
   font-family: "Raleway", sans-serif;
-  @apply flex flex-col gap-[5vh] bg-white md:my-[60px] sm:my-[40px] my-[15px] lg:mx-[8vw] md:mx-[6vw] sm:mx-[4vw] mx-[1vw] overflow-x-hidden;
+  @apply flex flex-col gap-[5vh] bg-white md:my-[60px] sm:my-[40px] my-[15px] lg:mx-[10vw] md:mx-[6vw] sm:mx-[4vw] mx-[1vw] overflow-x-hidden;
 }
 
 p {
@@ -25,6 +25,10 @@ h1 {
 h2 {
   @apply lg:text-4xl md:text-3xl text-2xl font-normal text-primary uppercase;
   font-family: "myFont", sans-serif;
+}
+
+h5 {
+  @apply text-primary font-medium text-lg;
 }
 
 /* Nav Styles */
@@ -81,4 +85,8 @@ button {
 
 .heroImg {
   @apply border-[1px] rounded-3xl border-primary basis-1/2 h-[65vh] w-auto;
+}
+
+#Cookie {
+  font-family: "myFont", sans-serif;
 }

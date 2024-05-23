@@ -1,9 +1,14 @@
 {
     "flavors": {
-      "classical": [
+      "classic cookies": [
         {
           "name": "Chocolate Chip Cookies",
           "description": "Soft and chewy cookies loaded with chunks of chocolate.",
+          "price": 2.99
+        },
+        {
+          "name": "Sugar Cookies",
+          "description": "Soft and chewy sugar cookies",
           "price": 2.99
         },
         {
@@ -17,7 +22,7 @@
           "price": 3.99
         }
       ],
-      "specialty": [
+      "specialty cookies": [
         {
           "name": "Macarons",
           "description": "Elegant French cookies with a delicate meringue shell and flavorful filling.",
@@ -34,7 +39,7 @@
           "price": 4.49
         }
       ],
-      "shortbread": [
+      "shortbread cookies": [
         {
           "name": "Classic Shortbread",
           "description": "Buttery and crumbly cookies with a melt-in-your-mouth texture.",
@@ -51,7 +56,7 @@
           "price": 4.99
         }
       ],
-      "healthier": [
+      "healthier cookies": [
         {
           "name": "Oatmeal Banana Cookies",
           "description": "Soft and naturally sweetened cookies made with ripe bananas, oats, and a hint of cinnamon.",
