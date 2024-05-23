@@ -1,7 +1,6 @@
 import React from "react";
 import db from "@/../Data/db.json";
 
-
 interface TestimonialProps {
   name: string;
   rating: number;
