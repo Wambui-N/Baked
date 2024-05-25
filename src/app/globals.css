@@ -10,7 +10,7 @@
 
 body {
   font-family: "Raleway", sans-serif;
-  @apply flex flex-col gap-[5vh] bg-white md:my-[60px] sm:my-[40px] my-[15px] lg:mx-[10vw] md:mx-[6vw] mx-[4vw] overflow-x-hidden;
+  @apply flex flex-col gap-[3vh] bg-white md:my-[60px] sm:my-[40px] my-[15px] lg:mx-[10vw] md:mx-[6vw] mx-[4vw] overflow-x-hidden;
 }
 
 p {
@@ -68,22 +68,6 @@ button {
   hover:bg-primary hover:text-white cursor-pointer transition duration-300 ease-in;
 }
 
-/* Hero Styles */
-#Hero {
-  @apply flex lg:flex-row flex-col lg:gap-8 gap-[2vh] items-center justify-center w-full h-auto;
-}
-
-.heroText {
-  @apply h-[65vh] py-[8vh] basis-1/2 flex flex-col justify-between;
-}
-
-/* .heroText p {
-  @apply lg:text-base text-sm my-2;
-} */
-
-.heroImg {
-  @apply border-[1px] rounded-3xl border-primary basis-1/2 h-[65vh] w-auto;
-}
 
 #Cookie {
   font-family: "myFont", sans-serif;
