@@ -21,8 +21,8 @@ const Flavor = () => {
         <div>
           <h5 className="my-2 uppercase">{category}</h5>
           <ul>
-            {db.flavors[category as keyof Cookies].map((flavor: FlavorProps) => (
-              <li id="Cookie" className="flex flex-row justify-between w-full my-2 py-1 border-y border-black/15">
+            {db.flavors[category as keyof Cookies].map((flavor: FlavorProps, index: number) => (
+              <li key={index} id="Cookie" className="flex flex-row justify-between w-full my-2 py-1 border-y border-black/15">
                 <h6>{flavor.name}</h6>
                 <p>{flavor.price}</p>
               </li>
