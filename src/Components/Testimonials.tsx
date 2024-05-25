@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import React, { useState } from "react";
 import Link from "next/link";
@@ -24,10 +24,6 @@ const Testimonials = () => {
     setCurrentIndex((prevIndex) =>
       prevIndex === 0 ? data.testimonials.length - 1 : prevIndex - 1
     );
-  };
-
-  const currentSlide = (index: number) => {
-    setCurrentIndex(index);
   };
 
   return (
@@ -63,7 +59,7 @@ const Testimonials = () => {
                     </svg>
                   ))}
                 </div>
-                <p className="text-lg font-semibold">{testimonial.testimony}</p>
+                <p className="text-lg text-center font-semibold">{testimonial.testimony}</p>
                 <p className="Capitalize text-primary font-semibold">
                   -{testimonial.name}
                 </p>
@@ -75,7 +71,7 @@ const Testimonials = () => {
             <div
               onClick={next}
               id="next"
-              className="absolute cursor-pointer top-1/2 right-0"
+              className="absolute cursor-pointer top-1/3 right-0"
             >
               <svg
                 className="w-12 h-12 inline-block"
@@ -99,7 +95,7 @@ const Testimonials = () => {
             <div
               onClick={prev}
               id="prev"
-              className="absolute cursor-pointer top-1/2 left-0"
+              className="absolute cursor-pointer top-1/3 left-0"
             >
               <svg
                 className="w-12 h-12 inline-block"
@@ -123,17 +119,15 @@ const Testimonials = () => {
           </div>
 
           {/*The dots/circles*/}
-          <div className="flex flex-row justify-center gap-2 my-4">
+          {/* <div className="flex flex-row justify-center gap-2 my-4">
             {data.testimonials.map((_, index: number) => (
               <span
                 key={index}
-                onClick={() => currentSlide(index)}
-                className={`cursor-pointer rounded-full border-[1px] border-primary bg-transparent w-3 h-3 mx-1 ${
-                  currentIndex === index ? "bg-primary" : "hover:bg-primary"
-                }`}
+                className={`cursor-pointer rounded-full border-[1px] border-primary bg-transparent w-3 h-3 mx-1
+                ${index === currentIndex ? "bg-primary" : "bg-transparent"}`}
               ></span>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
