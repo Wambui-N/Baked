@@ -24,7 +24,7 @@ export const Hambuger = () => {
   return (
     <div className={`md:hidden`} onClick={toggleMenu}>
       <Lottie
-        className="h-20"
+        className="h-20 p-0"
         lottieRef={menuRef}
         animationData={menu}
         autoplay={false}

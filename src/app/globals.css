@@ -10,7 +10,7 @@
 
 body {
   font-family: "Raleway", sans-serif;
-  @apply flex flex-col gap-[5vh] bg-white md:my-[60px] sm:my-[40px] my-[15px] lg:mx-[10vw] md:mx-[6vw] sm:mx-[4vw] mx-[1vw] overflow-x-hidden;
+  @apply flex flex-col gap-[5vh] bg-white md:my-[60px] sm:my-[40px] my-[15px] lg:mx-[10vw] md:mx-[6vw] mx-[4vw] overflow-x-hidden;
 }
 
 p {
@@ -32,9 +32,7 @@ h5 {
 }
 
 /* Nav Styles */
-nav {
-  @apply xl:pb-4 border-b-[1px] border-black/25;
-}
+
 
 nav .navItem {
   @apply text-primary text-lg font-medium relative px-1;
