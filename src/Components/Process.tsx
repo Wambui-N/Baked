@@ -3,9 +3,9 @@ import React from "react";
 
 export const Process = () => {
   return (
-    <div id="Process">
-      <h2 className="my-4">Our Process</h2>
-      <p className="my-2">
+    <div id="flex flex-cols gap-2">
+      <h2 className="">Our Process</h2>
+      <p className="">
         Our cookies are crafted with the finest, high-quality ingredients,
         ensuring every bite is a delightful experience. Each batch is baked
         fresh daily to guarantee optimal flavor and texture. We pride ourselves
@@ -14,9 +14,9 @@ export const Process = () => {
         indulgence. Whether you prefer classic tastes or adventurous new
         combinations, our selection has something to please every palate.
       </p>
-      <div className="grid md:grid-cols-3 grid-cols-1 gap-[3vw] w-full h-auto overflow-hidden my-4">
+      <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-[3vw] w-full h-auto overflow-hidden my-4">
         <Image
-          className="object-cover object-center rounded-2xl border-[1px] border-primary"
+          className="object-cover object-center rounded-2xl border-[1px] border-primary w-full md:h-auto"
           src="/Image 1.png"
           alt="Mixing ingredients"
           width={500}
@@ -24,7 +24,7 @@ export const Process = () => {
           quality={100}
         />
         <Image
-          className="object-cover object-center rounded-2xl border-[1px] border-primary"
+          className="object-cover object-center rounded-2xl border-[1px] border-primary w-full md:h-auto"
           src="/Image 2.png"
           alt="Mixing ingredients"
           width={500}
@@ -32,7 +32,7 @@ export const Process = () => {
           quality={100}
         />
         <Image
-          className="object-cover object-center rounded-2xl border-[1px] border-primary"
+          className="object-cover object-center rounded-2xl border-[1px] border-primary w-full md:h-auto"
           src="/Image 3.png"
           alt="Mixing ingredients"
           width={500}
