@@ -7,7 +7,7 @@ interface ButtonProps {
 
 export const Button = ({text, style}: ButtonProps) => {
   return (
-    <button className={`${style}`}>
+    <button className={`${style} `}>
       <span>{text}</span>
     </button>
   );

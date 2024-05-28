@@ -3,7 +3,7 @@ import Flavor from "./Flavor";
 
 export const Menu = () => {
   return (
-    <div>
+    <div id="menu">
       <h2 className="my-4">Menu</h2>
       <Flavor />
     </div>

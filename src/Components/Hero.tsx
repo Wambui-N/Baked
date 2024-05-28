@@ -4,7 +4,10 @@ import { Button } from "./Button";
 
 export const Hero = () => {
   return (
-    <div id="Hero" className="flex lg:flex-row lg:items-center flex-col w-full h-auto lg:gap-8 gap-[2vh]">
+    <div
+      id="Hero"
+      className="flex lg:flex-row lg:items-center flex-col w-full h-auto lg:gap-8 gap-[2vh]"
+    >
       <div className="md:basis-1/2 flex flex-col lg:gap-[1vw] md:gap-[0.5vw] justify-center h-full">
         <h1>Infusing magic into every bite</h1>
         <p>
@@ -18,9 +21,11 @@ export const Hero = () => {
           custom cookie designs for special events. Contact us today to place
           your order!
         </p>
-        <Button 
+        <Button
           text="Order Now"
-          style="my-2 px-4 py-3 lg:w-full md:w-1/3 bg-primary text-white hover:bg-white hover:text-primary transition duration-300 ease-in-out"
+          style="my-2 px-4 py-3 lg:w-full md:w-1/3 bg-primary text-white hover:bg-white 
+          hover:text-primary transition duration-300 ease-in-out h-auto font-medium text-base rounded-3xl border-[1px] 
+  border-primary px-8 leading-3 relative py-2 cursor-pointer"
         />
       </div>
       <Image

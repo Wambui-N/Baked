@@ -5,76 +5,89 @@
           "name": "Chocolate Chip Cookies",
           "description": "Soft and chewy cookies loaded with chunks of chocolate.",
           "price": 2.99,
-          "image": "https://images.unsplash.com/photo-1584369372650-359b4003e743?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          "image": "/chocolate-chip cookies.png"
         },
         {
           "name": "Sugar Cookies",
           "description": "Soft and chewy sugar cookies",
           "price": 2.99,
-          "image": "https://images.unsplash.com/photo-1584369372650-359b4003e743?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          "image": "/Sugar.jpg"
         },
         {
           "name": "Oatmeal Raisin Cookies",
           "description": "Hearty cookies made with oats, raisins, and a hint of cinnamon.",
           "price": 3.49,
-          "image": "https://images.unsplash.com/photo-1584369372650-359b4003e743?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          "image": "/Oatmeal Raisin.jpg"
         },
         {
           "name": "Peanut Butter Cookies",
           "description": "Rich and nutty cookies with a crumbly texture, often topped with a chocolate kiss.",
           "price": 3.99,
-          "image": "https://images.unsplash.com/photo-1584369372650-359b4003e743?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          "image": "/Peanut Butter.jpg"
         }
       ],
       "specialty cookies": [
         {
           "name": "Macarons",
           "description": "Elegant French cookies with a delicate meringue shell and flavorful filling.",
-          "price": 4.99
+          "price": 4.99,
+          "image": "/Macarons.jpg"
+
         },
         {
           "name": "Florentine Cookies",
           "description": "Thin and crispy almond cookies topped with caramel and chocolate.",
-          "price": 5.49
+          "price": 5.49,
+          "image": "/Florentine.jpg"
+
         },
         {
           "name": "Alfajores",
           "description": "South American sandwich cookies filled with dulce de leche and rolled in coconut flakes.",
-          "price": 4.49
+          "price": 4.49,
+          "image": "/Alfajores.jpg"
+
         }
       ],
       "shortbread cookies": [
         {
           "name": "Classic Shortbread",
           "description": "Buttery and crumbly cookies with a melt-in-your-mouth texture.",
-          "price": 3.99
+          "price": 3.99,
+          "image": "/Shortbread.jpg"
         },
         {
           "name": "Lemon Shortbread",
           "description": "Shortbread cookies infused with lemon zest and drizzled with lemon icing.",
-          "price": 4.49
+          "price": 4.49,
+          "image": "/Lemon Shortbread.jpg"
         },
         {
           "name": "Chocolate-Dipped Shortbread",
           "description": "Shortbread fingers dipped in rich dark or milk chocolate.",
-          "price": 4.99
+          "price": 4.99,
+          "image": "/Chocolate Dipped Shortbread.jpg"
         }
       ],
       "healthier cookies": [
         {
           "name": "Oatmeal Banana Cookies",
           "description": "Soft and naturally sweetened cookies made with ripe bananas, oats, and a hint of cinnamon.",
-          "price": 3.49
+          "price": 3.49,
+          "image": "/Oatmeal.jpg"
+
         },
         {
           "name": "Almond Flour Cookies",
           "description": "Gluten-free cookies made with almond flour, honey, and dark chocolate chips.",
-          "price": 4.49
+          "price": 4.49,
+          "image": "/Almond Flour.jpg"
         },
         {
           "name": "Vegan Peanut Butter Cookies",
           "description": "Plant-based cookies made with peanut butter, maple syrup, and flax eggs.",
-          "price": 3.99
+          "price": 3.99,
+          "image": "/Vegan Peanut Butter.jpg"
         }
       ]
     },

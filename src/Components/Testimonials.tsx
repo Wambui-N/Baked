@@ -27,7 +27,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="">
+    <div id="testimonial" className="">
       <h2>Testimonials</h2>
       <div className="relative">
         <div className="my-6 w-full flex flex-col items-center">

@@ -28,7 +28,9 @@ export const Footer = () => {
         </div>
         <Button
           text="Make an Order"
-          style="my-2 px-4 py-3 w-1/3 bg-primary text-white hover:bg-white hover:text-primary transition duration-300 ease-in-out"
+          style="h-auto text-primary font-medium text-base rounded-3xl border-[1px] 
+          border-primary px-8 leading-3 relative my-2 px-4 py-3 w-1/3 bg-primary 
+          text-white hover:bg-white hover:text-primary transition duration-300 ease-in-out"
         />
       </div>
     </div>

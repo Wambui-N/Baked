@@ -36,13 +36,15 @@ export const Hambuger = () => {
         <Link className="navItem" href="/">
           Home
         </Link>
-        <Link className="navItem" href="#">
+        <Link className="navItem" href="#menu">
           Menu
         </Link>
-        <Link className="navItem" href="#">
+        <Link className="navItem" href="#testimonial">
           Testimonials
         </Link>
-        <Button text="Order" style="bg-primary text-white"/>
+        <Button text="Order" style="bg-primary text-white h-auto font-medium text-base rounded-3xl border-[1px] 
+  border-primary px-8 leading-3 relative py-2
+  hover:bg-white hover:text-primary cursor-pointer transition duration-300 ease-in;"/>
       </div>
     </div>
   );
